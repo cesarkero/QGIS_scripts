@@ -122,7 +122,6 @@ else:
             t0 = t0+f
 
         while t0 > t1:
-            print("Processing stopped at:" + str(datetime.now()))
             y.cancel()
 
     work2t1()
